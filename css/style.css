@@ -242,31 +242,32 @@ header .intro-text {
 	margin: 15px 0 30px;
 }
 /* Menu Section */
-#restaurant-menu {
+#servicios_page {
 	padding: 0 0 60px 0;
 }
-#restaurant-menu .section-title {
-	background: #444 transparent center center no-repeat fixed;
+#servicios_page .section-title {
+	background: #444 url(../img/IMG04.jpg) center center no-repeat fixed;
 	background-size: cover;
+	margin-bottom: 50px;
 }
-#restaurant-menu .section-title h2 {
+#servicios_page .section-title h2 {
 	color: #fff;
 }
-#restaurant-menu img {
+#servicios_page img {
 	width: 300px;
 	box-shadow: 15px 0 #a7c44c;
 }
-#restaurant-menu h3 {
+#servicios_page h3 {
 	padding: 10px 0;
 	text-transform: uppercase;
 }
-#restaurant-menu .menu-section hr {
+#servicios_page .menu-section hr {
 	margin: 0 auto;
 }
-#restaurant-menu .menu-section {
+#servicios_page .menu-section {
 	margin: 0 20px 80px;
 }
-#restaurant-menu .menu-section-title {
+#servicios_page .menu-section-title {
 	font-size: 26px;
 	display: block;
 	font-weight: 500;
@@ -274,36 +275,36 @@ header .intro-text {
 	margin: 20px 0;
 	text-align: center;
 }
-#restaurant-menu .menu-item {
+#servicios_page .menu-item {
 	margin: 35px 0;
 	font-size: 18px;
 }
-#restaurant-menu .menu-item-name {
+#servicios_page .menu-item-name {
 	font-weight: 600;
 	font-size: 17px;
 	color: #555;
 	border-bottom: 2px dotted rgb(213, 213, 213);
 }
-#restaurant-menu .menu-item-description {
+#servicios_page .menu-item-description {
 	font-style: italic;
 	font-size: 15px;
 }
-#restaurant-menu .menu-item-price {
+#servicios_page .menu-item-price {
 	float: right;
 	font-weight: 600;
 	color: #555;
 	margin-top: -26px;
 }
-/* Portfolio Section */
-#portfolio {
+/* galeria_page Section */
+#galeria_page {
 	padding: 0 0 120px 0;
 }
-#portfolio .section-title {
+#galeria_page .section-title {
 	background: #444 url(../img/IMG04.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
-#portfolio .section-title h2 {
+#galeria_page .section-title h2 {
 	color: #fff;
 }
 .categories {
@@ -368,14 +369,14 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
-.portfolio-item {
+.galeria_page-item {
 	margin: 15px 0;
 }
-.portfolio-item .hover-bg {
+.galeria_page-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 }
-.portfolio-item .hover-bg:before {
+.galeria_page-item .hover-bg:before {
 	display: block;
 	content: '';
 	position: absolute;
@@ -416,40 +417,45 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* Team Section */
-#team {
+/* testimonio Section */
+#testimonio {
 	color: #fff;
 	background: #444 url(../img/IMG05.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
-#team .overlay {
+#testimonio .section-title {
+	background: transparent;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+#testimonio .overlay {
 	padding: 120px 0 80px 0;
 	background: rgba(0, 0, 0, 0.6);
 }
-#team h2, #team p {
+#testimonio h2, #testimonio p {
 	color: #fff;
 }
-#team hr {
-	background: #fff;
+#testimonio hr {
+	background: #8eb640;
 }
-#team h3 {
+#testimonio h3 {
 	color: #fff;
 	font-weight: 400;
 	font-size: 20px;
 	margin: 5px 0;
 }
-#team img {
+#testimonio img {
 	width: 280px;
 }
-#team .thumbnail {
+#testimonio .thumbnail {
 	background: transparent;
 	border: 0;
 }
-#team .thumbnail .team-img {
+#testimonio .thumbnail .testimonio-img {
 	display: inline-block;
 	position: relative;
 }
-#team .thumbnail .team-img:before {
+#testimonio .thumbnail .testimonio-img:before {
 	display: block;
 	content: '';
 	position: absolute;
@@ -459,10 +465,10 @@ ol.type li a:hover {
 	left: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
 }
-#team .thumbnail .caption {
+#testimonio .thumbnail .caption {
 	padding-top: 10px;
 }
-#team .thumbnail .caption p {
+#testimonio .thumbnail .caption p {
 	color: rgba(255,255,255,0.7);
 	padding: 0 10px;
 	font-size: 15px;
@@ -501,6 +507,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 #contact {
 	padding: 100px 0 60px 0;
 	background: #F6F6F6;
+}
+#contact .section-title {
+	background: transparent;
+	background-size: cover;
+	margin-bottom: 50px;
 }
 #contact .section-title p {
 	color: #777;
