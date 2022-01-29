@@ -187,7 +187,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.4) transparent center center no-repeat fixed;
 }
 .intro h1 {
 	font-family: 'Raleway';
