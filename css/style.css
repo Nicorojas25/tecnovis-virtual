@@ -105,10 +105,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 700;
 	letter-spacing: 1px;
 }
-#menu a.navbar-brand-logo {
-	vertical-align: middle;
-	margin-right: 0.3em;
-}
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #ddd;
@@ -178,7 +174,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	padding: 7%;
+	padding: 0;
 	background: url(../img/intro-bg.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -187,10 +183,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.4) transparent center center no-repeat fixed;
+	background: rgba(0,0,0,0.4);
 }
 .intro h1 {
-	font-family: 'Raleway';
+	font-family: 'Dancing Script', cursive;
 	color: #fff;
 	font-size: 10em;
 	font-weight: 700;
@@ -242,32 +238,31 @@ header .intro-text {
 	margin: 15px 0 30px;
 }
 /* Menu Section */
-#servicios_page {
+#restaurant-menu {
 	padding: 0 0 60px 0;
 }
-#servicios_page .section-title {
+#restaurant-menu .section-title {
 	background: #444 url(../img/IMG04.jpg) center center no-repeat fixed;
 	background-size: cover;
-	margin-bottom: 50px;
 }
-#servicios_page .section-title h2 {
+#restaurant-menu .section-title h2 {
 	color: #fff;
 }
-#servicios_page img {
+#restaurant-menu img {
 	width: 300px;
 	box-shadow: 15px 0 #a7c44c;
 }
-#servicios_page h3 {
+#restaurant-menu h3 {
 	padding: 10px 0;
 	text-transform: uppercase;
 }
-#servicios_page .menu-section hr {
+#restaurant-menu .menu-section hr {
 	margin: 0 auto;
 }
-#servicios_page .menu-section {
+#restaurant-menu .menu-section {
 	margin: 0 20px 80px;
 }
-#servicios_page .menu-section-title {
+#restaurant-menu .menu-section-title {
 	font-size: 26px;
 	display: block;
 	font-weight: 500;
@@ -275,36 +270,36 @@ header .intro-text {
 	margin: 20px 0;
 	text-align: center;
 }
-#servicios_page .menu-item {
+#restaurant-menu .menu-item {
 	margin: 35px 0;
 	font-size: 18px;
 }
-#servicios_page .menu-item-name {
+#restaurant-menu .menu-item-name {
 	font-weight: 600;
 	font-size: 17px;
 	color: #555;
 	border-bottom: 2px dotted rgb(213, 213, 213);
 }
-#servicios_page .menu-item-description {
+#restaurant-menu .menu-item-description {
 	font-style: italic;
 	font-size: 15px;
 }
-#servicios_page .menu-item-price {
+#restaurant-menu .menu-item-price {
 	float: right;
 	font-weight: 600;
 	color: #555;
 	margin-top: -26px;
 }
-/* galeria_page Section */
-#galeria_page {
+/* Portfolio Section */
+#portfolio {
 	padding: 0 0 120px 0;
 }
-#galeria_page .section-title {
+#portfolio .section-title {
 	background: #444 url(../img/IMG04.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
-#galeria_page .section-title h2 {
+#portfolio .section-title h2 {
 	color: #fff;
 }
 .categories {
@@ -369,14 +364,14 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
-.galeria_page-item {
+.portfolio-item {
 	margin: 15px 0;
 }
-.galeria_page-item .hover-bg {
+.portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 }
-.galeria_page-item .hover-bg:before {
+.portfolio-item .hover-bg:before {
 	display: block;
 	content: '';
 	position: absolute;
@@ -417,45 +412,40 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* testimonio Section */
-#testimonio {
+/* Team Section */
+#team {
 	color: #fff;
-	background: #444 url(../img/IMG05.jpg) center top no-repeat fixed;
+	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
-#testimonio .section-title {
-	background: transparent;
-	background-size: cover;
-	margin-bottom: 50px;
-}
-#testimonio .overlay {
+#team .overlay {
 	padding: 120px 0 80px 0;
 	background: rgba(0, 0, 0, 0.6);
 }
-#testimonio h2, #testimonio p {
+#team h2, #team p {
 	color: #fff;
 }
-#testimonio hr {
-	background: #8eb640;
+#team hr {
+	background: #fff;
 }
-#testimonio h3 {
+#team h3 {
 	color: #fff;
 	font-weight: 400;
 	font-size: 20px;
 	margin: 5px 0;
 }
-#testimonio img {
+#team img {
 	width: 280px;
 }
-#testimonio .thumbnail {
+#team .thumbnail {
 	background: transparent;
 	border: 0;
 }
-#testimonio .thumbnail .testimonio-img {
+#team .thumbnail .team-img {
 	display: inline-block;
 	position: relative;
 }
-#testimonio .thumbnail .testimonio-img:before {
+#team .thumbnail .team-img:before {
 	display: block;
 	content: '';
 	position: absolute;
@@ -465,10 +455,10 @@ ol.type li a:hover {
 	left: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
 }
-#testimonio .thumbnail .caption {
+#team .thumbnail .caption {
 	padding-top: 10px;
 }
-#testimonio .thumbnail .caption p {
+#team .thumbnail .caption p {
 	color: rgba(255,255,255,0.7);
 	padding: 0 10px;
 	font-size: 15px;
@@ -507,11 +497,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 #contact {
 	padding: 100px 0 60px 0;
 	background: #F6F6F6;
-}
-#contact .section-title {
-	background: transparent;
-	background-size: cover;
-	margin-bottom: 50px;
 }
 #contact .section-title p {
 	color: #777;
